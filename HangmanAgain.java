@@ -127,7 +127,7 @@ public class HangmanAgain {
 	public static String[] getWords() throws IOException{
 		
 		//Makes a thing to read text file
-		BufferedReader reader = new BufferedReader(new FileReader("M:/Hangman/Words/plaintextpokemon.txt"));
+		BufferedReader reader = new BufferedReader(new FileReader("plaintextpokemon.txt"));
 		
 		ArrayList<String> words = new ArrayList<String>();
 		
