@@ -27,7 +27,7 @@ public class HangmanAgain {
 		ArrayList<String> guesses  = new ArrayList<String>();
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("A Pokemon has been chosen!");
+		System.out.println("Random Pokemon, I CHOOSE YOU!");
 		System.out.println(buildWord(displayed));
 		System.out.println("You have 6 lives!");
 		boolean gameOn = true;
